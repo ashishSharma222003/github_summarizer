@@ -1,6 +1,6 @@
 import os
 import streamlit as st
-from constant import Gemini_api, github_token
+from constant import Gemini_api, github_token# Gemini API key and github API key
 from urllib.parse import urlparse
 import requests
 from llama_index.core import VectorStoreIndex
